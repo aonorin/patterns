@@ -38,7 +38,7 @@ language.
 * TODO convertible to Foo trait for more generic generics (e.g., http://static.rust-lang.org/doc/master/std/fs/struct.File.html#method.open)
 * TODO late binding of bounds for better APIs (i.e., Mutex's don't require Send)
 * TODO 'shadow' borrowed version of struct - e.g., double buffering, Niko's parser generator
-* TODO composition of structs to please the borrow checker
+* [Compose structs together for better borrowing](patterns/compose-structs.md)
 
 
 
