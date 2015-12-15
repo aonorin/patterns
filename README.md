@@ -12,7 +12,7 @@ language.
 
 * [Constructor](idioms/ctor.md)
 * [Concatenating strings with `format!`](idioms/concat-format.md)
-* TODO private field to indicate extensibility
+* [Privacy for extensibility](idioms/priv-extend.md)
 * TODO trait to separate visibility of methods from visibility of data (https://github.com/sfackler/rust-postgres/blob/master/src/lib.rs#L1400)
 * [Collections are smart pointers](idioms/deref.md)
 * TODO leak amplification ("Vec::drain sets the Vec's len to 0 prematurely so that mem::forgetting Drain "only" mem::forgets more stuff. instead of exposing uninitialized memory or having to update the len on every iteration")
@@ -29,9 +29,8 @@ language.
 * TODO iterators (to safely avoid bounds checks)
 * TODO closures and lifetimes (coupling to lifetime)
 * TODO platform-specific sub-modules (https://github.com/rust-lang/rfcs/blob/master/text/0517-io-os-reform.md#platform-specific-opt-in)
-* TODO affine types/session types
 * [Entry API](patterns/entry.md)
-* TODO visitor
+* [Visitor](patterns/visitor.md)
 * TODO fold
 * TODO small crates and semver
 * TODO extension traits
