@@ -21,6 +21,7 @@ language.
 * TODO interior mutability - UnsafeCell, Cell, RefCell
 * TODO treating Option like a list
 * TODO `Default` trait
+* [Pass variables to closure](idioms/pass-var-to-closure.md)
 
 ### Design patterns
 
@@ -65,5 +66,8 @@ Contributions are very welcome!
 You should start with [the template](template.md). Copy it into the appropriate
 directory, edit it, and submit a PR. You might not want every section, and you
 might want to add extra sections.
+
+We suggest leaving a comment on the [issue tracker](https://github.com/rust-unofficial/patterns/issues)
+so that other people don't start working on the same topic.
 
 Correction and elaboration PRs are very welcome.
