@@ -19,9 +19,10 @@ language.
 * TODO leak amplification ("Vec::drain sets the Vec's len to 0 prematurely so that mem::forgetting Drain "only" mem::forgets more stuff. instead of exposing uninitialized memory or having to update the len on every iteration")
 * [Finalisation in destructors](idioms/dtor-finally.md)
 * TODO interior mutability - UnsafeCell, Cell, RefCell
-* TODO treating Option like a list
+* [Iterating over an `Option`](idioms/option-iter.md)
 * TODO `Default` trait
 * [Pass variables to closure](idioms/pass-var-to-closure.md)
+* [`mem::replace(_)` to avoid needless clones](idioms/mem-replace.md)
 
 ### Design patterns
 
@@ -34,7 +35,7 @@ language.
 * [Entry API](patterns/entry.md)
 * [Visitor](patterns/visitor.md)
 * [Fold](patterns/fold.md)
-* TODO small crates and semver
+* [Prefer small crates](patterns/small-crates.md)
 * TODO extension traits
 * TODO destructor bombs (ensure linear typing dynamically, e.g., https://github.com/Munksgaard/session-types/commit/0f25ccb7c3bc9f65fa8eaf538233e8fe344a189a)
 * TODO convertible to Foo trait for more generic generics (e.g., http://static.rust-lang.org/doc/master/std/fs/struct.File.html#method.open)
@@ -56,7 +57,7 @@ language.
 * TODO wildcard matches
 * TODO taking an enum rather than having multiple functions
 * TODO `unwrap()`ing every `Result` instead of forwarding it
-
+* [`#[deny(warnings)]`](anti_patterns/deny-warnings.md)
 
 
 ## Contributing
